@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adjustable Background generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
+</head>
+<body id="bg">
+
+	<header>
+		<h1>Background generator</h1>
+	</header>
+
+	<section>
+		<select id="display">
+	    	<option value="Linear-Display">Linear-Display</option>
+	    	<option value="Radial-Display">Radial-Display</option>
+  		</select>
+	  	<button id="btn">Apply</button>
+		<h5><em>Select the colour scheme below:</em></h5>
+		<input class="c1" type="color" name="color1" value="#FF0000">
+		<input class="c2" type="color" name="color2" value="#FFFF00">
+		<input class="c3" type="color" name="color3" value="#0000FF">
+		<p>___</p>
+		<h5><em>(Or)<br> Enter all three Hex colour values below:</em></h5>
+		<input class="colour-box1" type="text" maxlength="7">
+		<input class="colour-box2" type="text" maxlength="7">
+		<input class="colour-box3" type="text" maxlength="7">
+		<p>___</p>
+		<h5><em>(Or)<br> Click the button below to generate a random colour:</em></h5>
+		<button class="button">Random Colour</button>
+		<br><br><span>&#10507;</span>
+		<fieldset>
+			<legend> <h2 class="details">CSS Background value:</h2></legend>
+			<h3></h3>
+		</fieldset>
+	</section>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
